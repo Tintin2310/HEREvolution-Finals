@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/styles/admin-style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">Election Admin Dashboard</a>
+        <div class="navbar-right">
+            <a href="#" id="logoutButton" class="logout-button">Logout</a>
+        </div>
+    </nav>
+    <div class="dashboard">
+        <div class="section" id="waitTimeSection">
+            <h2>Wait Time Updation</h2>
+            <p>Update the wait time for voters:</p>
+            <input type="number" id="waitTimeInput" placeholder="Enter new wait time in minutes">
+            <button id="updateWaitTimeButton">Update Wait Time</button>
+        </div>
+        <div class="section" id="trafficConditionsSection">
+            <h2>Traffic Conditions</h2>
+            <p>View traffic conditions around the polling booth:</p>
+            <!-- Placeholder for traffic conditions display -->
+        </div>
+        <div class="section" id="emergencyServicesSection">
+            <h2>Emergency Services</h2>
+            <p>View nearby emergency services and contact information:</p>
+            <!-- Placeholder for emergency services display -->
+        </div>
+    </div>
+</body>
+</html>
