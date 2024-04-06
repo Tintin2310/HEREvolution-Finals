@@ -31,8 +31,8 @@ function renderKML(map) {
   
   // Step 2: initialize a map
   var map = new H.Map(document.getElementById('map'), defaultLayers.vector.normal.map, {
-    zoom: 2.5,
-    center: {lat: 48.30432303555956, lng: -104.94466241321628},
+    zoom: 15,
+    center: {lat: 13.0827, lng: 80.2707},
     pixelRatio: window.devicePixelRatio || 1
   });
   // add a resize listener to make sure that the map occupies the whole container
