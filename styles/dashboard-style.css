@@ -61,3 +61,20 @@ p {
 .logout-button:hover {
   background-color: #d32f2f;
 }
+
+.polling-booth-selection {
+ margin-top: 20px;
+}
+
+.polling-booth-selection label {
+ display: block;
+ margin-bottom: 5px;
+}
+
+.polling-booth-selection select {
+ width: 100%;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ background-color: #fff;
+}
