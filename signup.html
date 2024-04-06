@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Sign Up</title>
+    <link rel="stylesheet" href="styles/signup-style.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Voter Sign Up</h2>
+        <form action="/submit-voter-signup" method="post">
+            <label for="name">Name of the Individual:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select...</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="pollingBooth">Polling Booth:</label>
+            <select id="pollingBooth" name="pollingBooth" required>
+                <option value="">Select...</option>
+                <option value="booth1">Polling Booth 1</option>
+                <option value="booth2">Polling Booth 2</option>
+                <option value="booth3">Polling Booth 3</option>
+                <!-- Add more options as needed -->
+            </select>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
