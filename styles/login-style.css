@@ -6,7 +6,7 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  background-color: #2e3440;
+  background-color: #f4f4f4;
   font-family: Arial, sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .form-container {
-  background-color: #3b4252;
+  background-color: #fff;
   padding: 100px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@ body {
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #e5e9f0;
+  color: #333;
 }
 
 input[type="text"],
@@ -37,20 +37,20 @@ input[type="password"] {
   padding: 10px;
   margin-bottom: 10px;
   margin-left: -10px;
-  border: 1px solid #e5e9f0;
+  border: 1px solid #fff;
   border-radius: 5px;
 }
 
 button {
   width: 100%;
   padding: 10px;
-  background-color: #5e81ac;
-  color: #e5e9f0;
+  background-color: #4CAF50;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #81a1c1;
+  background-color: #45a049;
 }
