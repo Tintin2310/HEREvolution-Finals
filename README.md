@@ -36,7 +36,7 @@ ElectionEase is designed for deployment on cloud platforms, ensuring scalability
 
 - **HERE API**
 - **HERE TRAFFIC API**
-- - **HERE GEOCODING API**
+- **HERE GEOCODING API**
 ## Conclusion
 
 ElectionEase is a powerful tool for modernizing the election process, making it more efficient, secure, and accessible to all participants. With its user-friendly interface and robust backend, ElectionEase is poised to revolutionize the way elections are conducted.
